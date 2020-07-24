@@ -1,0 +1,73 @@
+.CjPersonInfoRoot {
+  padding-bottom: 64px;
+}
+
+.CjPersonInfoHead {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.CjPersonInfoImage {
+  margin-left: auto;
+}
+
+.photo-upload__img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-family: 'object-fit:cover';
+  object-fit: cover;
+}
+
+.CjPersonInfoName {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  display: flex;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 41px;
+  margin-bottom: 32px;
+
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+
+.CjPersonInfoCountry {
+  & > p {
+    margin: 0;
+    margin-left: 16px;
+    margin-left: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 27px;
+  }
+  display: flex;
+  align-items: center;
+}
+
+.CjPersonInfoPhone {
+  & > p {
+    margin: 0;
+    margin-left: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 27px;
+  }
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.CjPersonInfoMail {
+  & > p {
+    margin: 0;
+    margin-left: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 27px;
+  }
+  display: flex;
+  align-items: center;
+}
